@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Attendance Mate</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div class="header">
+        <h1>75% Attendance Manager</h1>
+    </div>
+
+
+    <div class="Subject">
+        <div id="DS">
+            <div class="total"><label for="tot"> Enter the total Number of Lectures: </label>
+                <input type="text" id="tot"><br>
+            </div>
+
+            <div class="att">
+                <label for="att">Enter the Lectures Attended:</label>
+                <input type="text" id="att"><br>
+
+            </div>
+            <div class="bu">
+                <button id="result">Required</button>
+            </div>
+            <div class="results">
+                The Required Lectures to attend for 75% attendance are:
+                <b>
+                    <div id="req"></div>
+                </b>
+                <br>
+
+            </div>
+            <div class="bunk">
+                You can miss <b>
+                    <div id="bunk"></div>
+                </b> lectures
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
